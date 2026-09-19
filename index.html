@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangul Sound Lab｜韓語發音卡</title>
+    <meta name="description" content="用翻卡方式練習韓語母音與子音發音。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="回到首頁">
+        <span class="brand-mark">ㅎ</span>
+        <span><strong>精萃<sup>™</sup>語言－韓語</strong><small>PRONUNCIATION LAB</small></span>
+      </a>
+      <div class="top-note"><span class="live-dot"></span> pronunciation studio <span class="top-note-sep">/</span> 01</div>
+      <button class="sound-toggle" id="soundToggle" type="button" aria-pressed="true"><span class="sound-icon" aria-hidden="true">🔊</span> 聲音開啟</button>
+    </header>
+
+    <main id="top">
+      <section class="hero shell">
+        <div class="hero-copy">
+          <p class="eyebrow">Korean pronunciation / 01</p>
+          <h1>先看字，<em>再聽見</em><br />韓語的形狀。</h1>
+          <p class="hero-description">每一張卡片都是一個小小的發音實驗。點開它，讓字母從紙面翻身，和它的聲音見面。</p>
+          <div class="hero-actions"><button class="primary-btn" id="playAll" type="button"><span>▶</span> 播放這一組</button><span class="hint">點選卡片即可翻面</span></div>
+        </div>
+        <div class="hero-orbit" aria-label="目前學習進度">
+          <div class="orbit-ring ring-one"></div><div class="orbit-ring ring-two"></div>
+          <div class="orbit-core"><span id="progressNumber">0</span><small>/ 40 已探索</small></div>
+          <span class="orbit-label label-a">母音</span><span class="orbit-label label-b">자음</span><span class="orbit-label label-c">sound</span>
+        </div>
+      </section>
+
+      <section class="workspace shell">
+        <div class="section-heading"><div><p class="eyebrow">Explore the alphabet</p><h2 id="sectionTitle">選一組，開始辨認聲音。</h2></div><p class="card-count" id="cardCount">10 cards</p></div>
+        <nav class="tabs" aria-label="字母分類" id="tabs"></nav>
+        <div class="cards" id="cards" aria-live="polite"></div>
+        <div class="footer-tip"><span class="tip-icon">i</span><span><strong>小練習：</strong>先讀出你猜的聲音，再翻卡確認。熟悉後，按下喇叭把耳朵也加入學習。</span></div>
+      </section>
+    </main>
+    <footer class="shell footer"><span>HANGUL SOUND LAB</span><span>MADE FOR CURIOUS EARS · 2026</span></footer>
+    <script src="app.js"></script>
+  </body>
+</html>
