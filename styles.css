@@ -10,3 +10,12 @@
 .card.flipped .card-inner{-webkit-transform:rotateY(180deg)}
 .card-face{-webkit-backface-visibility:hidden}
 @media(max-width:620px){.hero-orbit{display:none}.hero{padding-bottom:42px}}
+@media(max-width:620px){
+  .card-inner{transform:none!important;-webkit-transform:none!important;transition:none}
+  .card-face{transition:opacity .22s ease;transform:none!important;-webkit-transform:none!important}
+  .card-front{opacity:1}
+  .card-back{opacity:0;pointer-events:none}
+  .card.flipped .card-front{opacity:0}
+  .card.flipped .card-back{opacity:1;pointer-events:auto}
+}
+.install-prompt{position:fixed;z-index:20;left:50%;bottom:22px;transform:translateX(-50%);width:min(510px,calc(100% - 30px));display:flex;align-items:center;gap:12px;padding:12px 14px;background:#172421;color:#f6f7f2;border:1px solid #3a554c;border-radius:14px;box-shadow:0 16px 38px rgba(23,36,33,.22)}.install-prompt[hidden]{display:none}.install-badge{display:grid;place-items:center;flex:0 0 34px;height:34px;border-radius:10px;background:#f6f7f2;color:#172421;font-family:"Noto Sans KR";font-weight:700}.install-copy{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1}.install-copy strong{font-size:13px}.install-copy span{font-size:11px;color:#adc0b7}.install-action{border:0;border-radius:999px;background:#f2784b;color:#fff;padding:9px 13px;font:600 11px Outfit;white-space:nowrap;cursor:pointer}.install-close{border:0;background:transparent;color:#b6c8c0;font-size:22px;line-height:1;cursor:pointer;padding:4px}.install-action:focus-visible,.install-close:focus-visible{outline:2px solid #f1c453;outline-offset:2px}@media(max-width:620px){.install-prompt{bottom:12px;padding:10px 11px}.install-copy strong{font-size:12px}.install-copy span{font-size:10px}.install-action{padding:8px 10px}}

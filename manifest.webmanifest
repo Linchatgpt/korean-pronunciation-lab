@@ -1,0 +1,16 @@
+{
+  "name": "精萃™語言－韓語",
+  "short_name": "精萃韓語",
+  "lang": "zh-Hant",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#172421",
+  "background_color": "#f6f7f2",
+  "description": "韓語字母、單字與發音練習卡。",
+  "icons": [
+    { "src": "/icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
