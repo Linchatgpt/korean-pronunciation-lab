@@ -4,3 +4,6 @@ sources/
 *.ndjson
 *.png
 build_korean_decoder.mjs
+
+# Local Netlify folder
+.netlify
