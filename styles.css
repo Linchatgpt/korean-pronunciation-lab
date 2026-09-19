@@ -8,5 +8,5 @@
 /* iOS Safari: keep glyphs crisp during 3D card turns. */
 .card-inner{-webkit-transform-style:preserve-3d;-webkit-transform:translateZ(0)}
 .card.flipped .card-inner{-webkit-transform:rotateY(180deg)}
-.card-face{-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0)}
+.card-face{-webkit-backface-visibility:hidden}
 @media(max-width:620px){.hero-orbit{display:none}.hero{padding-bottom:42px}}
