@@ -5,3 +5,8 @@
 .brand strong{letter-spacing:.05em}.brand strong sup{font-size:7px;position:relative;top:-.45em;margin-left:1px}.sound-toggle.off{border-color:#e15a4a;color:#b52e20;background:#fff1ef}.sound-toggle.off .sound-icon{color:#d64032}.sound-icon{font-size:13px;line-height:1}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}}
 .word-card .card-symbol{font-size:42px;letter-spacing:.01em}.word-card .card-front{padding:18px}.word-card .card-back .card-symbol{font-size:34px}.word-card .roman{font-size:19px}.word-card .pronounce{font-family:Outfit;font-size:14px;color:#f7cbb1}
+/* iOS Safari: keep glyphs crisp during 3D card turns. */
+.card-inner{-webkit-transform-style:preserve-3d;-webkit-transform:translateZ(0)}
+.card.flipped .card-inner{-webkit-transform:rotateY(180deg)}
+.card-face{-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0)}
+@media(max-width:620px){.hero-orbit{display:none}.hero{padding-bottom:42px}}
