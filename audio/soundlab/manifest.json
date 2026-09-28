@@ -1,0 +1,246 @@
+{
+  "voice_id": "Korean_objective_reporter_vv1",
+  "format": "mp3",
+  "items": [
+    {
+      "group": "words",
+      "key": "hanguk",
+      "text": "한국",
+      "file": "words-objective-reporter/01-hanguk.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/01-hanguk.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "seoul",
+      "text": "서울",
+      "file": "words-objective-reporter/02-seoul.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/02-seoul.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "busan",
+      "text": "부산",
+      "file": "words-objective-reporter/03-busan.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/03-busan.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "gangnam",
+      "text": "강남",
+      "file": "words-objective-reporter/04-gangnam.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/04-gangnam.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "gangnam-style",
+      "text": "강남스타일",
+      "file": "words-objective-reporter/05-gangnam-seutail.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/05-gangnam-seutail.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "incheon",
+      "text": "인천",
+      "file": "words-objective-reporter/06-incheon.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/06-incheon.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "samsung",
+      "text": "삼성",
+      "file": "words-objective-reporter/07-samseong.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/07-samseong.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "hyundai",
+      "text": "현대",
+      "file": "words-objective-reporter/08-hyeondae.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/08-hyeondae.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "nike",
+      "text": "나이키",
+      "file": "words-objective-reporter/09-naiki.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/09-naiki.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "starbucks",
+      "text": "스타벅스",
+      "file": "words-objective-reporter/10-seutabeokseu.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/10-seutabeokseu.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "blackpink",
+      "text": "블랙핑크",
+      "file": "words-objective-reporter/11-beullaekpingkeu.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/11-beullaekpingkeu.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "newjeans",
+      "text": "뉴진스",
+      "file": "words-objective-reporter/12-nyujinseu.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/12-nyujinseu.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "coffee",
+      "text": "커피",
+      "file": "words-objective-reporter/13-keopi.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/13-keopi.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "cola",
+      "text": "콜라",
+      "file": "words-objective-reporter/14-kolla.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/14-kolla.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "cafe",
+      "text": "카페",
+      "file": "words-objective-reporter/15-kape.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/15-kape.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "menu",
+      "text": "메뉴",
+      "file": "words-objective-reporter/16-menyu.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/16-menyu.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "hotel",
+      "text": "호텔",
+      "file": "words-objective-reporter/17-hotel.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/17-hotel.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "taxi",
+      "text": "택시",
+      "file": "words-objective-reporter/18-taeksi.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/18-taeksi.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "bus",
+      "text": "버스",
+      "file": "words-objective-reporter/19-beoseu.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/19-beoseu.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "taekwondo",
+      "text": "태권도",
+      "file": "words-objective-reporter/20-taekwondo.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/20-taekwondo.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "hospital",
+      "text": "병원",
+      "file": "words-objective-reporter/21-byeongwon.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/21-byeongwon.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "bank",
+      "text": "은행",
+      "file": "words-objective-reporter/22-eunhaeng.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/22-eunhaeng.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "entrance",
+      "text": "입구",
+      "file": "words-objective-reporter/23-ipgu.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/23-ipgu.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "exit",
+      "text": "출구",
+      "file": "words-objective-reporter/24-chulgu.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/24-chulgu.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "subway",
+      "text": "지하철",
+      "file": "words-objective-reporter/25-jihacheol.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/25-jihacheol.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "airport",
+      "text": "공항",
+      "file": "words-objective-reporter/26-gonghang.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/26-gonghang.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "toilet",
+      "text": "화장실",
+      "file": "words-objective-reporter/27-hwajangsil.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/27-hwajangsil.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "library",
+      "text": "도서관",
+      "file": "words-objective-reporter/28-doseogwan.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/28-doseogwan.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "museum",
+      "text": "박물관",
+      "file": "words-objective-reporter/29-bangmulgwan.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/29-bangmulgwan.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    },
+    {
+      "group": "words",
+      "key": "free",
+      "text": "무료",
+      "file": "words-objective-reporter/30-muryo.mp3",
+      "audio": "audio/soundlab/words-objective-reporter/30-muryo.mp3",
+      "voice_id": "Korean_objective_reporter_vv1"
+    }
+  ]
+}

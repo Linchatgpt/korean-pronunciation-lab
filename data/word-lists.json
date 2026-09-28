@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "words": [
+    {
+      "id": "hanguk",
+      "korean": "한국",
+      "roman": "hanguk",
+      "pronounce": "韓國",
+      "audio": "audio/soundlab/words-objective-reporter/01-hanguk.mp3"
+    },
+    {
+      "id": "seoul",
+      "korean": "서울",
+      "roman": "seoul",
+      "pronounce": "Seoul／首爾",
+      "audio": "audio/soundlab/words-objective-reporter/02-seoul.mp3"
+    },
+    {
+      "id": "busan",
+      "korean": "부산",
+      "roman": "busan",
+      "pronounce": "釜山／Busan",
+      "audio": "audio/soundlab/words-objective-reporter/03-busan.mp3"
+    },
+    {
+      "id": "gangnam",
+      "korean": "강남",
+      "roman": "gangnam",
+      "pronounce": "江南／Gangnam",
+      "audio": "audio/soundlab/words-objective-reporter/04-gangnam.mp3"
+    },
+    {
+      "id": "gangnam-style",
+      "korean": "강남스타일",
+      "roman": "gangnam seutail",
+      "pronounce": "江南 Style",
+      "audio": "audio/soundlab/words-objective-reporter/05-gangnam-seutail.mp3"
+    },
+    {
+      "id": "incheon",
+      "korean": "인천",
+      "roman": "incheon",
+      "pronounce": "仁川／Incheon",
+      "audio": "audio/soundlab/words-objective-reporter/06-incheon.mp3"
+    },
+    {
+      "id": "samsung",
+      "korean": "삼성",
+      "roman": "samseong",
+      "pronounce": "三星／Samsung",
+      "audio": "audio/soundlab/words-objective-reporter/07-samseong.mp3"
+    },
+    {
+      "id": "hyundai",
+      "korean": "현대",
+      "roman": "hyeondae",
+      "pronounce": "現代／Hyundai",
+      "audio": "audio/soundlab/words-objective-reporter/08-hyeondae.mp3"
+    },
+    {
+      "id": "nike",
+      "korean": "나이키",
+      "roman": "naiki",
+      "pronounce": "Nike",
+      "audio": "audio/soundlab/words-objective-reporter/09-naiki.mp3"
+    },
+    {
+      "id": "starbucks",
+      "korean": "스타벅스",
+      "roman": "seutabeokseu",
+      "pronounce": "Starbucks／星巴克",
+      "audio": "audio/soundlab/words-objective-reporter/10-seutabeokseu.mp3"
+    },
+    {
+      "id": "blackpink",
+      "korean": "블랙핑크",
+      "roman": "beullaekpingkeu",
+      "pronounce": "BLACKPINK",
+      "audio": "audio/soundlab/words-objective-reporter/11-beullaekpingkeu.mp3"
+    },
+    {
+      "id": "newjeans",
+      "korean": "뉴진스",
+      "roman": "nyujinseu",
+      "pronounce": "NewJeans",
+      "audio": "audio/soundlab/words-objective-reporter/12-nyujinseu.mp3"
+    },
+    {
+      "id": "coffee",
+      "korean": "커피",
+      "roman": "keopi",
+      "pronounce": "coffee",
+      "audio": "audio/soundlab/words-objective-reporter/13-keopi.mp3"
+    },
+    {
+      "id": "cola",
+      "korean": "콜라",
+      "roman": "kolla",
+      "pronounce": "cola",
+      "audio": "audio/soundlab/words-objective-reporter/14-kolla.mp3"
+    },
+    {
+      "id": "cafe",
+      "korean": "카페",
+      "roman": "kape",
+      "pronounce": "café",
+      "audio": "audio/soundlab/words-objective-reporter/15-kape.mp3"
+    },
+    {
+      "id": "menu",
+      "korean": "메뉴",
+      "roman": "menyu",
+      "pronounce": "menu",
+      "audio": "audio/soundlab/words-objective-reporter/16-menyu.mp3"
+    },
+    {
+      "id": "hotel",
+      "korean": "호텔",
+      "roman": "hotel",
+      "pronounce": "hotel",
+      "audio": "audio/soundlab/words-objective-reporter/17-hotel.mp3"
+    },
+    {
+      "id": "taxi",
+      "korean": "택시",
+      "roman": "taeksi",
+      "pronounce": "taxi",
+      "audio": "audio/soundlab/words-objective-reporter/18-taeksi.mp3"
+    },
+    {
+      "id": "bus",
+      "korean": "버스",
+      "roman": "beoseu",
+      "pronounce": "bus",
+      "audio": "audio/soundlab/words-objective-reporter/19-beoseu.mp3"
+    },
+    {
+      "id": "taekwondo",
+      "korean": "태권도",
+      "roman": "taekwondo",
+      "pronounce": "跆拳道",
+      "audio": "audio/soundlab/words-objective-reporter/20-taekwondo.mp3"
+    },
+    {
+      "id": "hospital",
+      "korean": "병원",
+      "roman": "byeongwon",
+      "pronounce": "病院",
+      "audio": "audio/soundlab/words-objective-reporter/21-byeongwon.mp3"
+    },
+    {
+      "id": "bank",
+      "korean": "은행",
+      "roman": "eunhaeng",
+      "pronounce": "銀行",
+      "audio": "audio/soundlab/words-objective-reporter/22-eunhaeng.mp3"
+    },
+    {
+      "id": "entrance",
+      "korean": "입구",
+      "roman": "ipgu",
+      "pronounce": "入口",
+      "audio": "audio/soundlab/words-objective-reporter/23-ipgu.mp3"
+    },
+    {
+      "id": "exit",
+      "korean": "출구",
+      "roman": "chulgu",
+      "pronounce": "出口",
+      "audio": "audio/soundlab/words-objective-reporter/24-chulgu.mp3"
+    },
+    {
+      "id": "subway",
+      "korean": "지하철",
+      "roman": "jihacheol",
+      "pronounce": "地下鐵",
+      "audio": "audio/soundlab/words-objective-reporter/25-jihacheol.mp3"
+    },
+    {
+      "id": "airport",
+      "korean": "공항",
+      "roman": "gonghang",
+      "pronounce": "空港",
+      "audio": "audio/soundlab/words-objective-reporter/26-gonghang.mp3"
+    },
+    {
+      "id": "toilet",
+      "korean": "화장실",
+      "roman": "hwajangsil",
+      "pronounce": "化粧室",
+      "audio": "audio/soundlab/words-objective-reporter/27-hwajangsil.mp3"
+    },
+    {
+      "id": "library",
+      "korean": "도서관",
+      "roman": "doseogwan",
+      "pronounce": "圖書館",
+      "audio": "audio/soundlab/words-objective-reporter/28-doseogwan.mp3"
+    },
+    {
+      "id": "museum",
+      "korean": "박물관",
+      "roman": "bangmulgwan",
+      "pronounce": "博物館",
+      "audio": "audio/soundlab/words-objective-reporter/29-bangmulgwan.mp3"
+    },
+    {
+      "id": "free",
+      "korean": "무료",
+      "roman": "muryo",
+      "pronounce": "無料／免費",
+      "audio": "audio/soundlab/words-objective-reporter/30-muryo.mp3"
+    }
+  ],
+  "lists": [
+    {
+      "id": "all-words",
+      "label": "全部單字",
+      "type": "all",
+      "itemIds": [
+        "hanguk",
+        "seoul",
+        "busan",
+        "gangnam",
+        "gangnam-style",
+        "incheon",
+        "samsung",
+        "hyundai",
+        "nike",
+        "starbucks",
+        "blackpink",
+        "newjeans",
+        "coffee",
+        "cola",
+        "cafe",
+        "menu",
+        "hotel",
+        "taxi",
+        "bus",
+        "taekwondo",
+        "hospital",
+        "bank",
+        "entrance",
+        "exit",
+        "subway",
+        "airport",
+        "toilet",
+        "library",
+        "museum",
+        "free"
+      ]
+    },
+    {
+      "id": "transport",
+      "label": "交通",
+      "type": "category",
+      "itemIds": [
+        "taxi",
+        "bus",
+        "subway",
+        "airport"
+      ]
+    },
+    {
+      "id": "food",
+      "label": "食品／餐飲",
+      "type": "category",
+      "itemIds": [
+        "coffee",
+        "cola",
+        "cafe",
+        "menu"
+      ]
+    },
+    {
+      "id": "loanwords",
+      "label": "外來語",
+      "type": "category",
+      "itemIds": [
+        "nike",
+        "starbucks",
+        "blackpink",
+        "newjeans",
+        "coffee",
+        "cola",
+        "cafe",
+        "menu",
+        "hotel",
+        "taxi",
+        "bus"
+      ]
+    },
+    {
+      "id": "travel",
+      "label": "旅遊常用詞",
+      "type": "category",
+      "itemIds": [
+        "hospital",
+        "bank",
+        "entrance",
+        "exit",
+        "subway",
+        "airport",
+        "toilet",
+        "library",
+        "museum",
+        "free"
+      ]
+    },
+    {
+      "id": "places",
+      "label": "地名／品牌",
+      "type": "category",
+      "itemIds": [
+        "seoul",
+        "busan",
+        "gangnam",
+        "gangnam-style",
+        "incheon",
+        "samsung",
+        "hyundai"
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "測驗題",
+      "type": "custom",
+      "itemIds": []
+    },
+    {
+      "id": "busan-trip",
+      "label": "釜山旅遊",
+      "type": "custom",
+      "itemIds": [
+        "busan",
+        "hotel",
+        "taxi",
+        "bus",
+        "cafe",
+        "menu",
+        "subway",
+        "airport",
+        "toilet"
+      ]
+    }
+  ]
+}

@@ -1,9 +1,6 @@
 .DS_Store
-sources/
-*.xlsx
-*.ndjson
-*.png
-build_korean_decoder.mjs
-
-# Local Netlify folder
-.netlify
+.netlify/
+**/node_modules/
+slidev-prototype/dist/
+__pycache__/
+*.py[cod]

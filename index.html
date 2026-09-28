@@ -14,7 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="soundlab.css?v=badge-larger-2" />
+    <link rel="stylesheet" href="lab-overrides.css?v=category-controls-row-1" />
   </head>
   <body>
     <div class="grain" aria-hidden="true"></div>
@@ -33,20 +34,24 @@
           <p class="eyebrow">Korean pronunciation / 01</p>
           <h1>先看字，<em>再聽見</em><br />韓語的形狀。</h1>
           <p class="hero-description">每一張卡片都是一個小小的發音實驗。點開它，讓字母從紙面翻身，和它的聲音見面。</p>
-          <div class="hero-actions"><button class="primary-btn" id="playAll" type="button"><span>▶</span> 播放這一組</button><span class="hint">點選卡片即可翻面</span></div>
         </div>
-        <div class="hero-orbit" aria-label="目前學習進度">
+        <div class="hero-orbit" aria-label="韓國太極旗圓形徽章">
           <div class="orbit-ring ring-one"></div><div class="orbit-ring ring-two"></div>
-          <div class="orbit-core"><span id="progressNumber">0</span><small>/ 40 已探索</small></div>
+          <div class="orbit-core" aria-label="韓國太極旗圓形徽章">
+            <img class="korean-flag" src="icons/korean-taegeuk-badge.png" alt="韓國太極旗盾牌徽章" />
+          </div>
           <span class="orbit-label label-a">母音</span><span class="orbit-label label-b">자음</span><span class="orbit-label label-c">sound</span>
         </div>
       </section>
 
       <section class="workspace shell">
         <div class="section-heading"><div><p class="eyebrow">Explore the alphabet</p><h2 id="sectionTitle">選一組，開始辨認聲音。</h2></div><p class="card-count" id="cardCount">10 cards</p></div>
+        <div class="hero-actions category-actions" id="categoryActions"><button class="primary-btn" id="playAll" type="button"><span>▶</span> 播放這一組</button><div class="play-gap-control"><label for="playGap">字卡間隔</label><select id="playGap" aria-label="字卡間播放間隔"><option value="1" selected>1 秒</option><option value="2">2 秒</option><option value="3">3 秒</option><option value="custom">自訂</option></select><label class="play-gap-custom" id="playGapCustom" for="playGapRange" hidden><input id="playGapRange" type="range" min="1" max="10" step="1" value="1" aria-label="自訂字卡間播放間隔"><output id="playGapValue" for="playGapRange">1 秒</output></label></div><span class="hint">點選卡片即可翻面</span></div>
         <nav class="tabs" aria-label="字母分類" id="tabs"></nav>
+        <nav class="tabs word-list-tabs" aria-label="單字清單" id="wordLists" hidden></nav>
         <div class="cards" id="cards" aria-live="polite"></div>
         <div class="footer-tip"><span class="tip-icon">i</span><span><strong>小練習：</strong>先讀出你猜的聲音，再翻卡確認。熟悉後，按下喇叭把耳朵也加入學習。</span></div>
+        <p class="audio-message" id="audioMessage" role="status" aria-live="polite" hidden></p>
       </section>
     </main>
     <footer class="shell footer"><span>HANGUL SOUND LAB</span><span>MADE FOR CURIOUS EARS · 2026</span></footer>
@@ -54,7 +59,7 @@
       <span class="install-badge">ㅎ</span><div class="install-copy"><strong>把精萃韓語放到桌面</strong><span>下次開啟更快，也能離線練習。</span></div>
       <button class="install-action" id="installButton" type="button">安裝到桌面</button><button class="install-close" id="installClose" type="button" aria-label="關閉安裝提示">×</button>
     </aside>
-    <script src="app.js"></script>
+    <script src="app.js?v=category-controls-row-1"></script>
     <script src="pwa.js"></script>
   </body>
 </html>

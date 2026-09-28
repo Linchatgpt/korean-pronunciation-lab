@@ -1,0 +1,23 @@
+{
+  "version": "0.1",
+  "status": "reference-only",
+  "note": "The current static slice uses the same shape inline in app.js so it can run without a build step. This JSON records the intended Corpus contract.",
+  "encounters": [
+    {
+      "id": "gwang",
+      "korean": "광",
+      "syllable_split": ["광"],
+      "letter_breakdown": ["ㄱ", "ㅘ", "ㅇ"],
+      "pronunciation_support": "광",
+      "audio": "assets/audio/gwang.mp3",
+      "source_type": "hanja",
+      "hanja": "光",
+      "traditional_chinese": "光",
+      "travel_context": "城市／地標",
+      "image": null,
+      "image_license": "待補授權素材",
+      "reveal_steps": ["encounter", "syllable", "letter", "compound-vowel", "audio"],
+      "rules_tested": ["複合母音", "尾音", "標準音校準"]
+    }
+  ]
+}

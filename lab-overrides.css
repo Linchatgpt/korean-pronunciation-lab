@@ -1,0 +1,25 @@
+.audio-message {
+  min-height: 1.4em;
+  margin: 0.5rem 0 0;
+  color: var(--muted);
+  font: 11px/1.5 "DM Mono", "Noto Sans TC", sans-serif;
+}
+.category-actions{margin:18px 0 0}
+/* Word list selector and intentionally empty custom lists. */
+.word-list-tabs[hidden]{display:none}
+.word-list-tabs{padding:16px 0 20px;border-bottom:0;flex-wrap:wrap}
+.empty-list{grid-column:1/-1;padding:28px 4px;color:var(--muted);font-size:14px;line-height:1.7}
+.empty-list code{color:var(--green);font-size:.9em}
+.play-gap-control{display:inline-flex;align-items:center;gap:7px;color:var(--muted);font:11px Outfit,sans-serif;white-space:nowrap}
+.play-gap-control select{border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--ink);padding:8px 10px;font:500 11px Outfit,sans-serif;cursor:pointer}
+.play-gap-control select:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
+.play-gap-custom{display:inline-flex;align-items:center;gap:6px}
+.play-gap-custom[hidden]{display:none}
+.play-gap-custom input{width:112px;accent-color:var(--green);cursor:pointer}
+.play-gap-custom output{min-width:34px;color:var(--green);font:11px "DM Mono",monospace}
+.card.sequence-active .card-front,.card.sequence-active .card-back{box-shadow:inset 0 0 0 5px #f1c453,0 0 0 4px #f2784b,0 0 28px rgba(241,196,83,.65)}
+.card.sequence-speaking .card-back{border-color:#f1c453;background:#25483d}
+.card.sequence-speaking .card-index:after{content:" 正在播放";color:#0f6a56;font:600 10px Outfit,sans-serif}
+.card.sequence-played .card-front:before{background:#f1c453}
+.card.sequence-played .card-index:after{content:" 剛播放";color:#0f6a56;font:600 10px Outfit,sans-serif}
+@media(max-width:620px){.hero-actions{flex-wrap:wrap;gap:12px}.play-gap-control{font-size:10px}.play-gap-control select{padding:7px 8px}.play-gap-custom input{width:90px}}
