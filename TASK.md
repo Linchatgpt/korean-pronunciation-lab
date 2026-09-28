@@ -31,10 +31,10 @@
 - 播放整組時，當前字卡在音檔期間翻面並以黃色／橘色外框標示；音檔結束翻回正面，並保留「剛播放」標示直到下一張開始。停止播放會清除標示。
 - 使用者要求整列「播放這一組／字卡間隔／點選卡片即可翻面」移到分類標題下方，並在所有分類（母音、W／Y 系列、子音、硬音、單字）都顯示。移除「所有字卡皆使用預錄 MP3 音檔。」常駐文字，音訊錯誤仍顯示必要提示；播放成功不再顯示「正在播放…」。
 - Service Worker 快取版本升至 v18；HTML、JavaScript 與覆寫 CSS 均更新快取識別。本機預覽確認功能列位於分類標題下方。已部署至 Netlify production，deploy ID `6ab8d8582fc1f1d495a7da5f`；正式首頁、HTML、App、CSS、Service Worker、30 筆詞表及一筆單字 MP3 均回應成功，舊 MP3 常駐文案與「正在播放…」字串未出現在正式頁面／程式。
+- 本機目前完整檔案樹已推送取代 GitHub `main` 的舊檔案內容，commit `d78d7bf`（以既有 `6a3b9ef` 為父提交，保留歷史，未強制推送）。遠端確認包含最新首頁、分類功能列與詞表；本地 `main` 與 `origin/main` 同步且工作目錄乾淨。公開 repository 共推送 209 個檔案；`.gitignore` 排除 Netlify 本機狀態、依賴與產生快取。
 
 ## 未完成／未驗證
 
-- 已初始化本機 Git，`origin` 指向 [Linchatgpt/korean-pronunciation-lab](https://github.com/Linchatgpt/korean-pronunciation-lab)，並抓取遠端 `main`。遠端最新 commit 為 `6a3b9ef`（2026-09-20），尚未包含目前網站使用的 `soundlab.css`、`lab-overrides.css`、`data/word-lists.json` 和新單字音檔。本地 `main` 尚無 commit，專案檔案仍未追蹤；未提交、推送或合併。下一步需先決定如何將本機現況接到既有遠端歷史。
 - 新 voice 已部署至正式站，deploy ID `6ab89c086a9120e7189fa440`；正式詞表 30 條、30/30 音檔、舊母音音檔與 Service Worker v15 已確認。
 
 - 跨頁播放鎖已部署至正式站（deploy ID `6ab89138d79aa5a8a73aadd3`），正式頁、程式與 Service Worker v13 回應已確認；尚未在兩個同來源分頁中實際觸發播放測試。鎖定範圍是同一瀏覽器／裝置，不同訪客／裝置各自播放。

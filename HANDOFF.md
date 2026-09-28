@@ -2,7 +2,7 @@
 
 ## 最新狀態
 
-2026-09-28 已初始化本機 Git，`origin` 指向公開 GitHub repository `Linchatgpt/korean-pronunciation-lab`，且已 fetch 遠端 `main`。遠端最新 commit `6a3b9ef`（2026-09-20）未包含目前使用中的 `soundlab.css`、`lab-overrides.css`、`data/word-lists.json` 與新單字音檔。本地 `main` 尚無 commit，專案檔案未追蹤；沒有執行 commit、push、merge 或覆蓋遠端。下一步需決定如何把目前本機網站納入既有 Git 歷史。
+2026-09-28 使用者要求以本機版本完整取代 GitHub 原有內容。已將本機檔案樹推送到公開 repository `Linchatgpt/korean-pronunciation-lab` 的 `main`：commit `d78d7bf42a944d795a02b70d8aae167f70e04b4b`，父提交為原 `6a3b9ef`，保留歷史並以一般 fast-forward push 更新，未強制推送。GitHub API 已確認遠端 SHA、首頁功能列／快取版本及詞表；本地 `main` 與 `origin/main` 同步，工作目錄乾淨。共推送 209 個檔案；`.gitignore` 排除 Netlify 本機狀態、依賴、Slidev build 與 Python bytecode。
 
 2026-09-27 最新 UI 調整：將整列「播放這一組／字卡間隔／點選卡片即可翻面」放在每一種分類標題下方（母音、W／Y 系列、子音、硬音、單字皆顯示），從首頁主視覺區移除。刪除「所有字卡皆使用預錄 MP3 音檔。」常駐提示，也移除播放成功後「正在播放…」文字，必要錯誤仍可顯示。HTML、JavaScript、覆寫 CSS 更新快取識別，Service Worker 升至 v18。本機預覽已確認功能列位於分類標題下方；已部署至 production，deploy ID `6ab8d8582fc1f1d495a7da5f`。正式 HTML、App、CSS、Service Worker、30 筆單字詞表及一筆單字 MP3 均回應成功，正式 HTML／App 中已找不到兩條被移除的常駐訊息。
 
